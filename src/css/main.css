@@ -12,3 +12,52 @@ img,
 video {
   display: block;
 }
+body {
+  display: flex;
+  width: 1728px;
+  height: 1117px;
+  padding-bottom: 1013px;
+  justify-content: center;
+  align-items: center;
+  background: #e9e9e9;
+}
+.barre {
+  display: flex;
+  width: 1728px;
+  padding: 20px 50px;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+}
+.menu {
+  display: flex;
+  padding: 20px 30px;
+  align-items: flex-start;
+  gap: 20px;
+  border-radius: 32px;
+  background: #fff;
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+.icon1 {
+  display: flex;
+  width: 64px;
+  height: 64px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 32px;
+  background: #fff;
+}
+.icon2 {
+  display: flex;
+  width: 64px;
+  height: 64px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 32px;
+  background: #fff;
+}
