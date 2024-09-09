@@ -43,6 +43,10 @@ body {
   line-height: 24px;
   text-transform: uppercase;
 }
+.icon {
+  display: flex;
+  flex-direction: row;
+}
 .icon1 {
   display: flex;
   width: 64px;
